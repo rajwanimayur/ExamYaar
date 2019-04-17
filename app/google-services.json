@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "920681138682",
+    "firebase_url": "https://examyaar-faculty.firebaseio.com",
+    "project_id": "examyaar-faculty",
+    "storage_bucket": "examyaar-faculty.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920681138682:android:00df97e84c828ff6",
+        "android_client_info": {
+          "package_name": "com.example.mayur.examyaar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920681138682-cfhghren6vedbgn5rv7q60moh92oe2so.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mayur.examyaar",
+            "certificate_hash": "9af0e2af42a2e8e6d4655365c71c54d6d98d870d"
+          }
+        },
+        {
+          "client_id": "920681138682-qbj64r363iao10h0goknhcu4oik0ecqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChj6qyYq3oCjIl2zTO7iEBe24Zhj_wY1k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920681138682-qbj64r363iao10h0goknhcu4oik0ecqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

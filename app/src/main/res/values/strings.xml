@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ExamYaar</string>
+    <string name="action_signout">Sign Out</string>
+    <string name="username_text">USERNAME</string>
+    <string name="button_text">LOGIN</string>
+    <string name="register_text">REGISTER</string>
+    <string name="reg_text">REGISTER</string>
+    <string name="email_text">Email</string>
+    <string name="lastName_text">Last Name</string>
+    <string name="firstName_text">First Name</string>
+    <string name="password_text">PASSWORD</string>
+    <string name="id_text">ID</string>
+    <string name="text_dob">DOB</string>
+    <string name="dd_mm_yyyy_text">dd/mm/yyyy</string>
+    <string name="john_abc_com_text">john@abc.com</string>
+    <string name="title_activity_content1">ExamYaar</string>
+    <string name="question">Question %1$d of %2$d</string>
+    <string name="string_select_correct_answer">Select the answer</string>
+    <string name="results">%1$.02f</string>
+    <string name="results_textView">Exam Ended!</string>
+    <string name="results_score">Score</string>
+    <string name="results_best_score">Best Score</string>
+    <string name="results_reset_button">Reset</string>
+    <string name="results_share">Share</string>
+    <string name="results_shareText">"www.google.com\nHey! I challenge you to beat my score on Examyaar.\nI've scored %1$d \nMy Best Score is %2$d \nDownload the app now."</string>
+    <string name="action_reset">Reset</string>
+
+    <string name="nav_header_desc">ExamYaar Icon</string>
+    <string name="nav_header_title">ExamYaar</string>
+    <string name="nav_header_subtitle">ExamYaar.com</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="editText_Email">Email</string>
+    <string name="editText_Password">Password</string>
+    <string name="Authentication_Error">Authorization Failed. Please Enter Valid Credentials. You\'ve %1$d Attempts left </string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_marks">Marks</string>
+    <string name="nav_statistics">Statistics</string>
+    <string name="title_activity_subject_categories">SubjectCategories</string>
+</resources>

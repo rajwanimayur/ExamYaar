@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape
+            android:shape="rectangle">
+            <!-- Set the border color of your layout here (Lower Recgtangle) -->
+            <solid
+                android:color="@color/textDisplayColor" />
+        </shape>
+    </item>
+
+    <!-- This is Upper Rectangle for Background color-->
+    <item android:top="2dp" >
+        <shape
+            android:shape="rectangle">
+            <!-- Set the background color of your layout here -->
+            <solid android:color="#FF444349" />
+        </shape>
+    </item>
+
+</layer-list>

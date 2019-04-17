@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2E2D33</color>
+    <color name="colorPrimaryDark">#19181D</color>
+    <color name="colorAccent">#80deea</color>
+    <color name="correct_answer">#00796B</color>
+    <color name="incorrect_answer">#D32F2F</color>
+    <color name="results_button_text_color">#263238</color>
+    <color name="white" />
+    <color name="textDisplayColor">#cfd8dc</color>
+</resources>

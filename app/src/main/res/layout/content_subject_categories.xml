@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pattern_stardust_repeating"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SubjectCategories"
+    tools:showIn="@layout/app_bar_subject_categories">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:rowCount="3">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:padding="@dimen/paddingContent">
+
+            <TextView
+                android:id="@+id/textViewDBMS"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:onClick="onTextViewClick"
+                android:text="DBMS"
+                android:textColor="@color/textDisplayColor" />
+
+            <TextView
+                android:id="@+id/textViewADA"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:onClick="onTextViewClick"
+                android:text="ADA"
+                android:textColor="@color/textDisplayColor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:padding="@dimen/paddingContent">
+
+            <TextView
+                android:id="@+id/textViewCN"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:onClick="onTextViewClick"
+                android:text="Computer Networks"
+                android:textColor="@color/textDisplayColor" />
+
+            <TextView
+                android:id="@+id/textViewEnglish"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:onClick="onTextViewClick"
+                android:text="English"
+                android:textColor="@color/textDisplayColor" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:padding="@dimen/paddingContent">
+
+            <TextView
+                android:id="@+id/textViewLogicalReasoning"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:onClick="onTextViewClick"
+                android:text="Logical Reasoning"
+                android:textColor="@color/textDisplayColor"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textViewMaths"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:onClick="onTextViewClick"
+                android:text="Maths"
+                android:textColor="@color/textDisplayColor" />
+        </LinearLayout>
+    </GridLayout>
+</FrameLayout>
